@@ -133,11 +133,21 @@ header a {
 
 /*missao, visao e valores*/
 .mvv_empresa {
-    margin: 2em 0;
+    
 }
 .mvv_empresa ul {
-    margin: 1em auto;
-    padding: 0 0 0 3.5%;  
+    justify-content: center;
+    display: flex;
+}
+
+.mvv_empresa li {
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    padding: 1em;
+    border-radius: 0 10px;
+    transition: 1s all;
+    margin-right: 10px;
 }
 
 .mvv_empresa h3 {
@@ -145,15 +155,6 @@ header a {
     font-weight: bold;
     text-align: center;
     margin: 1em 0;
-}
-.mvv_empresa li {
-    text-align: center;
-    display: inline-block;
-    width: 29%;
-    margin: 1%;
-    padding: 1em 0;
-    border-radius: 0 10px;
-    transition: 1s all;
 }
 
 .mvv_empresa li:hover {
@@ -215,16 +216,15 @@ header a {
 /*RODAPE*/
 #rodape {
     background-color: #ffffff;
-    width: 100%;
-    padding: 0.3% 0;
+    padding: 15px;
     box-shadow: -2px 0 5px #000000;
-
 }
 
 #rodape img {
-    width: 5%;
+    width: 80px;
 }
 
 #rodape p {
     text-align: center;
+    font-size: 15px;
 }
