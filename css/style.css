@@ -1,0 +1,230 @@
+/*CABEÇALHO*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /*background-color: #efd6ca;*/
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    padding: 0 2rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 2px 0 5px #000000;
+}
+
+header img {
+    width: 300px;
+    margin-left: 3%;
+    padding: 10px; 
+}
+
+header nav {
+    position: realtive;
+}
+
+.menu_ul {  
+    padding: 30px;
+    position: absolute;
+    right: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+header ul li {  
+    padding: 10px 8px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 25px;
+    transition: 0.5s all;
+}
+
+.menu_ul li:hover {
+    color: #ffffff;
+    background-color: #2cc76a;
+    border-radius: 10px 5px;
+    box-shadow: 1px 1px 2px #000000; 
+}
+
+header a {
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Redes sociais*/
+
+.redescontainer {
+    position: absolute;
+    top: 580px;
+}
+
+.redesnav {
+    position: fixed;
+}
+
+.redescontainer img {
+    width: 65px;
+    transition: 0.5s all;
+}
+
+.redescontainer img:hover {
+    width: 75px;
+}
+
+/*BEM-VINDO*/
+.bem_vindo {
+    width: 100%;
+    background: linear-gradient(45deg,#5b5249,#dfdd13,#f26223,#396592,#923978,#64c32b,#ffffff);
+    opacity: 0.8;
+    box-shadow: 5px 0px 5px #000000;
+    transition: 1.5s all;
+}
+
+.bem_vindo:hover {
+    opacity: 1;
+}
+
+.bem_vindo div{    
+    text-align: center;
+    height: 400px;
+}
+
+.bem_vindo h1{
+    /*font-family: 'Alfa Slab One', cursive;*/
+    padding: 150px 0 0 0 ;
+    font-size: 2.5em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+
+/*SOBRE*/
+.conteudo_rp , #conteudo .mvv_empresa {
+    width: 70%;
+    margin: 4.5em auto;
+}
+
+#conteudo main h2{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.conteudo_rp div{
+    width: 80%;
+    margin: 1em auto;
+}
+
+.conteudo_rp p {
+    font-size: 1.3em;
+    text-align: justify;
+    margin: 0 0 0.5em;
+}
+
+
+/*missao, visao e valores*/
+.mvv_empresa {
+    margin: 2em 0;
+}
+.mvv_empresa ul {
+    margin: 1em auto;
+    padding: 0 0 0 3.5%;  
+}
+
+.mvv_empresa h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em 0;
+}
+.mvv_empresa li {
+    text-align: center;
+    display: inline-block;
+    width: 29%;
+    margin: 1%;
+    padding: 1em 0;
+    border-radius: 0 10px;
+    transition: 1s all;
+}
+
+.mvv_empresa li:hover {
+    padding: 2%;
+    box-shadow: 5px 5px 10px #000000;
+}
+
+.missao {
+    background-color: #7292ee;
+}
+.visao {
+    background-color: #ffa360;
+}
+.valores {
+    background-color: #ff6800;
+}
+
+/* Contact form */
+
+.contact-container {
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    
+}
+
+.contact-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input, .contact-container textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 10px 20px;
+}
+
+.contact-container textarea{
+    display: block;
+    margin: 0 auto 20px;
+    width: 550px;
+    height: 150px;
+}
+
+.contact-container input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #2cc76a;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*RODAPE*/
+#rodape {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0.3% 0;
+    box-shadow: -2px 0 5px #000000;
+
+}
+
+#rodape img {
+    width: 5%;
+}
+
+#rodape p {
+    text-align: center;
+}
