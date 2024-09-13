@@ -62,48 +62,85 @@ header a {
 .redescontainer {
     position: absolute;
     top: 580px;
+    left: 2px;
 }
 
 .redesnav {
     position: fixed;
 }
 
-.redescontainer img {
-    width: 65px;
+.redes ul {
+    
+}
+
+.redes li {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.redes li:hover {
+    width: 70px;
+    height: 70px;
     transition: 0.5s all;
 }
 
-.redescontainer img:hover {
-    width: 75px;
+.redescontainer img {
+    width: 54px;
+    padding: 3px;
 }
 
+.redescontainer li:hover img {
+    width: 62px;
+    transition: 0.5s all;
+}
+
+.wp {
+    background-color: #00c4ff;
+    border-radius: 50px;
+ }
+.insta {
+    background-color: #ff00a9;
+    border-radius: 50px;
+}
+
+.face {
+    background-color: #fff200;
+    border-radius: 50px;
+}
+
+ 
 /*BEM-VINDO*/
 .bem_vindo {
     width: 100%;
+    height: 480px;
     background: linear-gradient(45deg,#5b5249,#dfdd13,#f26223,#396592,#923978,#64c32b,#ffffff);
     opacity: 0.8;
     box-shadow: 5px 0px 5px #000000;
     transition: 1.5s all;
+    display: flex;
+    /* flex-box */
+    align-items: center;
+    justify-content: center;
 }
 
 .bem_vindo:hover {
     opacity: 1;
 }
 
-.bem_vindo div{    
-    text-align: center;
-    height: 400px;
-}
-
 .bem_vindo h1{
-    /*font-family: 'Alfa Slab One', cursive;*/
-    padding: 150px 0 0 0 ;
     font-size: 40px;
     color: #ffffff;
     font-weight: bold;
+    text-align: center;
 }
 
 /*SOBRE*/
+#conteudo {
+    width: 100%;
+}
+
 .conteudo_rp , #conteudo .mvv_empresa {
     width: 70%;
     margin: 4.5em auto;
@@ -124,51 +161,82 @@ header a {
 .conteudo_rp p {
     font-size: 20px;
     text-align: justify;
+    
     margin: 0 0 0.5em;
 }
 
 
 /*missao, visao e valores*/
-
-.mvv_empresa ul {
-    justify-content: center;
+.mvv_empresa {
+    width: 100%;
+    background-color: #efeeec;
+    padding: 50px 0;
     display: flex;
+    align-items: center;
+}
+.mvv_empresa ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .mvv_empresa li {
-    justify-content: center;
-    text-align: center;
-    width: 322px;
-    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    padding: 35px;
     border-radius: 0 10px;
     transition: 1s all;
-    margin-right: 10px;
+    margin: 0 auto;
 }
+
+.mvv_empresa li:hover {
+    padding: 45px;
+    box-shadow: 5px 5px 10px #000000;
+    transition: 2s all;
+}
+
 
 .mvv_empresa h3 {
     font-size: 30px;
     font-weight: bold;
-    text-align: center;
     margin: 1em 0;
 }
 
-.mvv_empresa p {
-    font-size: 15px;
+.none {
+    display: none;
 }
 
-.mvv_empresa li:hover {
-    padding: 2%;
-    box-shadow: 5px 5px 10px #000000;
+.mvv_empresa p {
+    transition: 2s all;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 23px;
+    padding: 25px;
+}
+
+.mvv_empresa span{
+    font-weight: bold;
+}
+ 
+.mvv_empresa img {
+    width: 150px;
 }
 
 .missao {
-    background-color: #7292ee;
+    background-color: #00c4ff;
+    cursor: pointer;
 }
 .visao {
-    background-color: #ffa360;
+    background-color: #ff00a9;
+    cursor: pointer;
 }
 .valores {
-    background-color: #ff6800;
+    background-color: #fff200;
+    cursor: pointer;
 }
 
 /* Contact form */
