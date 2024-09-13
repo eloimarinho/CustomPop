@@ -44,7 +44,7 @@ header ul li {
 
 .menu_ul li:hover {
     color: #ffffff;
-    background-color: #2cc76a;
+    background-color: #00c4ff;/* #2cc76a; */
     border-radius: 10px 5px;
     box-shadow: 1px 1px 2px #000000; 
 }
@@ -69,14 +69,12 @@ header a {
     position: fixed;
 }
 
-.redes ul {
-    
-}
-
 .redes li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60px;
     height: 60px;
-    text-align: center;
     margin: 5px 0;
 }
 
@@ -87,12 +85,11 @@ header a {
 }
 
 .redescontainer img {
-    width: 54px;
-    padding: 3px;
+    width: 35px;
 }
 
 .redescontainer li:hover img {
-    width: 62px;
+    width: 45px;
     transition: 0.5s all;
 }
 
@@ -190,6 +187,7 @@ header a {
     border-radius: 0 10px;
     transition: 1s all;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .mvv_empresa li:hover {
@@ -198,11 +196,11 @@ header a {
     transition: 2s all;
 }
 
-
 .mvv_empresa h3 {
     font-size: 30px;
     font-weight: bold;
     margin: 1em 0;
+    text-transform: uppercase;
 }
 
 .none {
@@ -228,17 +226,31 @@ header a {
 
 .missao {
     background-color: #00c4ff;
-    cursor: pointer;
 }
 .visao {
     background-color: #ff00a9;
-    cursor: pointer;
 }
 .valores {
     background-color: #fff200;
-    cursor: pointer;
+}
+/*FIND US*/
+#find_us  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+#find_us h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 20px;
 }
 
+.mapa {
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px #000000;
+}
 /* Contact form */
 
 #contact-container {
@@ -247,7 +259,7 @@ header a {
 }
 
 #contact-container h2 {
-    font-size: 36px;
+    font-size: 35px;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -262,7 +274,7 @@ header a {
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     margin: 0 10px 20px;
 }
 
@@ -276,8 +288,8 @@ header a {
 #contact-container input[type="submit"] {
     display: block;
     margin: 0 auto;
-    background-color: #2cc76a;
-    color: #fff;
+    background-color: #00c4ff;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -286,9 +298,13 @@ header a {
     background-color: #ffffff;
     padding: 15px;
     box-shadow: -2px 0 5px #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-#rodape img {
+#rodape img{
     width: 80px;
 }
 
